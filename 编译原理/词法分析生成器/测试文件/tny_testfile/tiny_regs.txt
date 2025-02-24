@@ -1,0 +1,8 @@
+identifier ([a-zA-Z])([a-zA-Z])*
+number ([0-9])([0-9])*
+reserve_word if|then|else|end|repeat|until|read|write
+op +|\-|\*|/
+relationOp <|=
+assignOp :=
+mark ;
+note \{(.)*\}

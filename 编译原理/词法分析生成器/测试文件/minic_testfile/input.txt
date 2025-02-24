@@ -1,0 +1,10 @@
+int esef = 5 ;
+float Ts = 2 ;
+do {
+    Ts = Ts + 1 * 4 - 9 / 3 ;
+    esef = esef - (1 + 9) % 4 ;
+} while (esef > 0);
+if (Ts > 0 )
+    TS = Ts -1;
+else
+    Ts = Ts +1;

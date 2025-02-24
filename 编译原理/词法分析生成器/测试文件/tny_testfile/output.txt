@@ -1,0 +1,44 @@
+word:{ Sample program   in TINY language -   computes factorial } parse result:note
+word:read parse result:reserve_word
+word:x parse result:identifier
+word:; parse result:mark
+word:{ input an integer } parse result:note
+word:if parse result:reserve_word
+word:0 parse result:number
+word:< parse result:relationOp
+word:x parse result:identifier
+word:then parse result:reserve_word
+word:{ don't compute if x <= 0 } parse result:note
+word:Fact parse result:identifier
+word::= parse result:assignOp
+word:1 parse result:number
+word:+ parse result:op
+word:2 parse result:number
+word:* parse result:op
+word:3 parse result:number
+word:- parse result:op
+word:8 parse result:number
+word:/ parse result:op
+word:4 parse result:number
+word:; parse result:mark
+word:repeat parse result:reserve_word
+word:Fact parse result:identifier
+word::= parse result:assignOp
+word:Fact parse result:identifier
+word:* parse result:op
+word:x parse result:identifier
+word:; parse result:mark
+word:x parse result:identifier
+word::= parse result:assignOp
+word:x parse result:identifier
+word:- parse result:op
+word:1 parse result:number
+word:until parse result:reserve_word
+word:x parse result:identifier
+word:= parse result:relationOp
+word:0 parse result:number
+word:; parse result:mark
+word:write parse result:reserve_word
+word:Fact parse result:identifier
+word:{ output factorial of x } parse result:note
+word:end parse result:reserve_word

@@ -1,0 +1,8 @@
+id ([a-zA-Z]|_)([a-zA-Z0-9]|_)*
+num ([0-9])([0-9])*|([0-9])([0-9])*\.([0-9])([0-9])*
+reserve_word else|if|int|float|return|void|do|while
+op +|\-|\*|/|%
+relationOp <|<=|>|>=|==|!=
+assignOp =
+mark ;|_|,|\(|\)|\[|\]|\{|\}
+note //(.)*\.
